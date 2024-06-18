@@ -20,7 +20,7 @@ namespace apiContact.Infrastructure.Migrations
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Number = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    CreatTime = table.Column<DateTime>(type: "datetime2", nullable: false)
+                    CreatTime = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: DateTime.Now)
                 },
                 constraints: table =>
                 {

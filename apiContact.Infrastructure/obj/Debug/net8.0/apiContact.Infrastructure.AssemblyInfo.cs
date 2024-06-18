@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("apiContact.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d8692255bda7e3fc372d0c9b48ccfb850723585")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d482e7a071f0f7cacbf1a6a30bef0ef3619995dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("apiContact.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("apiContact.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

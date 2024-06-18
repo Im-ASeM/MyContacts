@@ -5,7 +5,7 @@ using Microsoft.VisualBasic;
 
 [Route("[Action]")]
 [ApiController]
-public class ContactController : Controller , IContactController
+public class ContactController : Controller
 {
     IContact db;
     public ContactController(IContact _db)

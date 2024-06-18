@@ -7,5 +7,9 @@ public class MyContacts
     public string Name { get; set; }
     public string Number { get; set; }
     public string Email { get; set; }
-    public DateTime CreatTime { get; set; }
+    public DateTime CreateTime { get; set; }
+    public MyContacts()
+    {
+        CreateTime = CreateTime == null ? DateTime.Now : CreateTime;
+    }
 }

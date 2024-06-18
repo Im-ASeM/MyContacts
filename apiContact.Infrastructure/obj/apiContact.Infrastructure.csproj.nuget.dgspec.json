@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asemn\\OneDrive\\Desktop\\Code\\C#\\apiContact\\apiContact.Infrastructure\\apiContact.Infrastructure.csproj": {}
+    "C:\\Users\\asemn\\Desktop\\Code\\C#\\S1\\apiContact\\apiContact.Infrastructure\\apiContact.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asemn\\OneDrive\\Desktop\\Code\\C#\\apiContact\\apiContact.Core\\apiContact.Core.csproj": {
+    "C:\\Users\\asemn\\Desktop\\Code\\C#\\S1\\apiContact\\apiContact.Core\\apiContact.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asemn\\OneDrive\\Desktop\\Code\\C#\\apiContact\\apiContact.Core\\apiContact.Core.csproj",
+        "projectUniqueName": "C:\\Users\\asemn\\Desktop\\Code\\C#\\S1\\apiContact\\apiContact.Core\\apiContact.Core.csproj",
         "projectName": "apiContact.Core",
-        "projectPath": "C:\\Users\\asemn\\OneDrive\\Desktop\\Code\\C#\\apiContact\\apiContact.Core\\apiContact.Core.csproj",
+        "projectPath": "C:\\Users\\asemn\\Desktop\\Code\\C#\\S1\\apiContact\\apiContact.Core\\apiContact.Core.csproj",
         "packagesPath": "C:\\Users\\asemn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asemn\\OneDrive\\Desktop\\Code\\C#\\apiContact\\apiContact.Core\\obj\\",
+        "outputPath": "C:\\Users\\asemn\\Desktop\\Code\\C#\\S1\\apiContact\\apiContact.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -65,18 +65,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\asemn\\OneDrive\\Desktop\\Code\\C#\\apiContact\\apiContact.Infrastructure\\apiContact.Infrastructure.csproj": {
+    "C:\\Users\\asemn\\Desktop\\Code\\C#\\S1\\apiContact\\apiContact.Infrastructure\\apiContact.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asemn\\OneDrive\\Desktop\\Code\\C#\\apiContact\\apiContact.Infrastructure\\apiContact.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\asemn\\Desktop\\Code\\C#\\S1\\apiContact\\apiContact.Infrastructure\\apiContact.Infrastructure.csproj",
         "projectName": "apiContact.Infrastructure",
-        "projectPath": "C:\\Users\\asemn\\OneDrive\\Desktop\\Code\\C#\\apiContact\\apiContact.Infrastructure\\apiContact.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\asemn\\Desktop\\Code\\C#\\S1\\apiContact\\apiContact.Infrastructure\\apiContact.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\asemn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asemn\\OneDrive\\Desktop\\Code\\C#\\apiContact\\apiContact.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\asemn\\Desktop\\Code\\C#\\S1\\apiContact\\apiContact.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -98,8 +98,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\asemn\\OneDrive\\Desktop\\Code\\C#\\apiContact\\apiContact.Core\\apiContact.Core.csproj": {
-                "projectPath": "C:\\Users\\asemn\\OneDrive\\Desktop\\Code\\C#\\apiContact\\apiContact.Core\\apiContact.Core.csproj"
+              "C:\\Users\\asemn\\Desktop\\Code\\C#\\S1\\apiContact\\apiContact.Core\\apiContact.Core.csproj": {
+                "projectPath": "C:\\Users\\asemn\\Desktop\\Code\\C#\\S1\\apiContact\\apiContact.Core\\apiContact.Core.csproj"
               }
             }
           }
@@ -119,6 +119,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.6, )"
@@ -128,6 +136,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.6, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.6.0, )"
+            },
+            "kavenegar": {
+              "target": "Package",
+              "version": "[1.2.4, )"
             }
           },
           "imports": [
@@ -146,7 +162,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
